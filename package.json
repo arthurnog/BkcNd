@@ -1,0 +1,17 @@
+{
+  "name": "BckNd",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/arthurnog/BkcNd.git",
+  "author": "arthurnog <artuts874@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
