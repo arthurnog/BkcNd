@@ -14,7 +14,9 @@ function logRequests(request, response, next) {
 
     console.time(logLabel);
 
-    return next();
+    next();
+
+    console.timeEnd(logLabel);
 }
 
 app.use(logRequests);
